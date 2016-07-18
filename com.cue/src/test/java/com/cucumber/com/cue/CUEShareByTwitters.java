@@ -24,18 +24,17 @@ public WebDriver driver = null;
     @Before
     public void beforeTest() {
 
-    	
+    	/*
    	    System.setProperty("webdriver.chrome.driver", "C://chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.get("https://business.cueconnect.com/");
-       
+       */
          
        
    
-         
-/*
+
             FirefoxProfile profile = new FirefoxProfile();
             profile.setPreference("browser.cache.disk.enable", "false");
             driver = new FirefoxDriver(profile);
@@ -43,8 +42,7 @@ public WebDriver driver = null;
             driver.manage().window().maximize();
             driver.navigate().to("https://business.cueconnect.com/");
             driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-            
-         */
+       
 
 
     }
@@ -87,11 +85,12 @@ public WebDriver driver = null;
          passWordBox.sendKeys("123456");
 
          WebElement button = driver.findElement(By.xpath("//*[@id='signin-submit']"));
-        delayFor(2000);
+     
          button.click();
+         delayFor(20000);
 
 
-         WebElement Item = driver.findElement(By.xpath("//*[@id='item-110845']/div[2]/a"));
+         WebElement Item = driver.findElement(By.xpath("//*[@id='item-122314']/div[2]/a"));
          delayFor(2000);
           mouseClick(Item);
 
@@ -107,7 +106,7 @@ public WebDriver driver = null;
          delayFor(2000);
          
          WebElement CommentsBox = driver.findElement(By.xpath("//*[@id='imi-after-post-network-select']/div[1]/textarea"));
-         CommentsBox.sendKeys("This is Facebook Great post!!");
+         CommentsBox.sendKeys("Hey NIck I like this item for my daughter birthday!!");
 
          WebElement SendButton = driver.findElement(By.xpath("//*[@id='post-submit']"));
          delayFor(5000);
