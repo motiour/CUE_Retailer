@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.qa.inmarkit.CUEMHAccountSettingPage">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.qa.inmarkit.CUEMHAccountSettingPage -->
+      <class name="com.qa.inmarkit.TestJenkinDemo">
+        <methods>
+          <include name="MH_AccountSetting_Page"/>
+          <include name="SearchByFacebook"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.qa.inmarkit.TestJenkinDemo -->
+      <class name="com.qa.inmarkit.CUEMHLogin">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.qa.inmarkit.CUEMHLogin -->
+      <class name="com.qa.inmarkit.CUEMH_AssortmentManager">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.qa.inmarkit.CUEMH_AssortmentManager -->
+      <class name="com.qa.inmarkit.CUEMH_DataManager">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.qa.inmarkit.CUEMH_DataManager -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

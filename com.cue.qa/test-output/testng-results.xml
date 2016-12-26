@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17138" started-at="2016-12-25T02:49:53Z" finished-at="2016-12-25T02:50:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17138" started-at="2016-12-25T02:49:53Z" finished-at="2016-12-25T02:50:10Z">
+      <class name="com.cue.qa.LoginFunctionTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.cue.qa.LoginFunctionTest@29ee9faa]" name="beforeTest" is-config="true" duration-ms="11391" started-at="2016-12-24T21:49:53Z" finished-at="2016-12-24T21:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="logTest1()[pri:0, instance:com.cue.qa.LoginFunctionTest@29ee9faa]" name="logTest1" duration-ms="4658" started-at="2016-12-24T21:50:04Z" finished-at="2016-12-24T21:50:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTest1 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.cue.qa.LoginFunctionTest@29ee9faa]" name="afterTest" is-config="true" duration-ms="1066" started-at="2016-12-24T21:50:09Z" finished-at="2016-12-24T21:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.cue.qa.LoginFunctionTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
